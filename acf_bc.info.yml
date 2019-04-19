@@ -1,0 +1,7 @@
+name: 'ACF BigCommerce'
+type: module
+description: 'Acquia Commerce Framework Commerce Cloud Demo'
+core: 8.x
+package: 'Acquia Commerce Framework'
+dependencies:
+  - acf_demo

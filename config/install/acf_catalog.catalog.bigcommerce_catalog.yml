@@ -1,0 +1,33 @@
+uuid: f8ce0176-878e-48e3-9daa-ebff45e7b0fa
+langcode: en
+status: true
+dependencies: {  }
+id: bigcommerce_catalog
+label: 'BigCommerce Catalog'
+connection: bc_products
+entities:
+  node:
+    product:
+      key: field_sku_data
+      data:
+        title:
+          value: title
+          type: string
+        body:
+          value: description
+          type: rich_text
+        field_product_sku:
+          value: sku
+          type: string
+        field_product_price:
+          value: price
+          type: string
+        field_product_images:
+          value: images
+          type: image
+        field_product_category:
+          value: category
+          type: term
+        field_variant_data:
+          value: variants
+          type: entity_reference

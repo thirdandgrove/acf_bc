@@ -1,0 +1,7 @@
+acf_bc.settings:
+  path: '/admin/acf/bc/settings'
+  defaults:
+    _form: '\Drupal\acf_bc\Form\BigCommerceSettingsForm'
+    _title: 'BigCommerce Commerce Framework Settings'
+  requirements:
+    _permission: 'administer site configuration'

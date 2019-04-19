@@ -1,0 +1,23 @@
+uuid: 870103d4-8de5-48ee-922d-2919c2313097
+langcode: en
+status: true
+dependencies:
+  config:
+    - basic_data.basic_data_type.variant
+    - field.storage.basic_data.field_price
+id: basic_data.variant.field_price
+field_name: field_price
+entity_type: basic_data
+bundle: variant
+label: Price
+description: 'Variant Price'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

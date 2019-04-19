@@ -1,0 +1,21 @@
+uuid: 706a1360-34bf-44b1-b11e-5ebd75767c9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_data
+id: basic_data.field_image_url
+field_name: field_image_url
+entity_type: basic_data
+type: string
+settings:
+  max_length: 1024
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

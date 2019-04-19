@@ -1,0 +1,19 @@
+uuid: 3b4e7c38-5001-4951-9356-8dcc53894a8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - basic_data.basic_data_type.variant
+    - field.storage.basic_data.field_image_url
+id: basic_data.variant.field_image_url
+field_name: field_image_url
+entity_type: basic_data
+bundle: variant
+label: 'Image Url'
+description: 'Variant Image URL'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

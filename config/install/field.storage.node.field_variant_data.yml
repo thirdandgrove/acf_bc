@@ -1,0 +1,20 @@
+uuid: 301b70a9-0c76-4859-bb33-a9aa77998b88
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_data
+    - node
+id: node.field_variant_data
+field_name: field_variant_data
+entity_type: node
+type: entity_reference
+settings:
+  target_type: basic_data
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

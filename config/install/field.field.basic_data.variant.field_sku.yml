@@ -1,0 +1,19 @@
+uuid: c19a5057-bbcf-4574-a626-f092d57474d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - basic_data.basic_data_type.variant
+    - field.storage.basic_data.field_sku
+id: basic_data.variant.field_sku
+field_name: field_sku
+entity_type: basic_data
+bundle: variant
+label: SKU
+description: 'Variant SKU'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,29 @@
+uuid: d2ba7092-2927-45df-ac41-7dbbc3d2af60
+langcode: en
+status: true
+dependencies:
+  config:
+    - basic_data.basic_data_type.variant
+    - field.storage.node.field_variant_data
+    - node.type.product
+id: node.product.field_variant_data
+field_name: field_variant_data
+entity_type: node
+bundle: product
+label: 'Variant Data'
+description: 'Product Variant Data'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:basic_data'
+  handler_settings:
+    target_bundles:
+      variant: variant
+    sort:
+      field: field_sku
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

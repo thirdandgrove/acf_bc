@@ -1,0 +1,6 @@
+uuid: 47867ea5-5599-424d-9dca-e275e9ce67b9
+langcode: en
+status: true
+dependencies: {  }
+id: variant
+label: Variant

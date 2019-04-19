@@ -1,0 +1,63 @@
+uuid: 64429445-5a66-462b-9612-5196d145d180
+langcode: en
+status: true
+dependencies:
+  config:
+    - basic_data.basic_data_type.variant
+    - field.field.basic_data.variant.field_image_url
+    - field.field.basic_data.variant.field_price
+    - field.field.basic_data.variant.field_sku
+id: basic_data.variant.default
+targetEntityType: basic_data
+bundle: variant
+mode: default
+content:
+  data:
+    type: string_textarea
+    weight: 5
+    settings:
+      rows: 4
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  field_image_url:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_price:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sku:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

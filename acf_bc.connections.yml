@@ -1,0 +1,5 @@
+bc_products:
+  type: 'bc_connection'
+  label: 'BigCommerce'
+  base_url: 'https://api.bigcommerce.com/stores'
+  endpoint: ''
